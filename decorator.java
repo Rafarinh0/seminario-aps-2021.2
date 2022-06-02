@@ -49,8 +49,8 @@ class WithMilk extends CoffeeDecorator {
     }
 }
 
-class WithCaramel extends CoffeeDecorator {
-    public WithCaramel(Coffee c) {
+class WithSugar extends CoffeeDecorator {
+    public WithSugar(Coffee c) {
         super(c);
     }
 
@@ -74,7 +74,7 @@ public class Main {
         Coffee c = new SimpleCoffee();
         printInfo(c);
 
-        c = new WithMilk(c);
+        c = new WithSugar(c);
         printInfo(c);
 
         c = new WithCaramel(c);
