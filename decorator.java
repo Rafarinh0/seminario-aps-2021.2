@@ -61,7 +61,7 @@ class WithSugar extends CoffeeDecorator {
 
     @Override
     public String getIngredients() {
-        return super.getIngredients() + ", Caramelo";
+        return super.getIngredients() + ", Açúcar";
     }
 }
 
